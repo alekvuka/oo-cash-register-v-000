@@ -7,10 +7,10 @@ class CashRegister
 
   def initialize(discount = 0)
     @total = 0
-    @discount = discount 
-    binding.pry
+    @discount = discount
+    
   end
 
 
-  
+
 end
