@@ -11,9 +11,9 @@ class CashRegister
 
   end
 
-  def add_item(name, price, quatity = 1)
-    @name = name 
-    @total = @total + price*quantity 
+  def add_item(name, price, quantity = 1)
+    @name = name
+    @total = @total + price*quantity
   end 
 
 
